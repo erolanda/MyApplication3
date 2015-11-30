@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="settingsLbl">Ingresa los datos del servidor</string>
+    <string name="N1">Número 1</string>
+    <string name="N2">Número 2</string>
+    <string name="NRes">Resultado</string>
+    <string name="Comp">Comprobar</string>
+    <string name="ConBlue">Conectar</string>
+    <string name="DesactivarBluetooth">Desconectado</string>
+    <string name="ActivarBluetooth">Conectar</string>
+    <string name="vm">Buscar</string>
+    <string name="direccionIP">Direccion IP</string>
+    <string name="puerto">Puerto</string>
+    <string name="btn_connect">Conectar</string>
+    <string-array name="Oper" >
+        <item>+</item>
+        <item>--</item>
+        <item>x</item>
+        <item>÷</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">settings</string>
+</resources>
