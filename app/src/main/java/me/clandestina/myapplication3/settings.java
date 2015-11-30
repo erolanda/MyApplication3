@@ -1,6 +1,5 @@
 package me.clandestina.myapplication3;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +11,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class settings extends AppCompatActivity {
-    //private TcpClient cliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,8 +49,6 @@ public class settings extends AppCompatActivity {
         i.putExtra("port",port);
         setResult(RESULT_OK,i);
         finish();
-        //showToast(host+"/n"+port);
-        //cliente.connect(getApplicationContext(), host, port);
     }
 
     public void showToast(String mensaje){
@@ -66,13 +62,4 @@ public class settings extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
     }
-
-    /*@Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if(cliente.getConnected()){
-            Intent data = new Intent();
-            setResult(RESULT_OK, data);
-        }
-    }*/
 }

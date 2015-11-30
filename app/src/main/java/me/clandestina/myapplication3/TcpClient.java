@@ -11,8 +11,6 @@ import java.net.UnknownHostException;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Handler;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.util.Log;
 import android.widget.Toast;
 
