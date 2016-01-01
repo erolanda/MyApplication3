@@ -105,7 +105,7 @@ public class TcpClient{
      */
     public void send(String command)
     {
-        if ( connected ) out.println(command +";");
+        if ( connected ) out.println(command);
     }
 
     private void showToast(final Context context, final String message) {

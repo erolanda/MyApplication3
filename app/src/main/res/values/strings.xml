@@ -16,8 +16,6 @@
     <string-array name="Oper" >
         <item>+</item>
         <item>--</item>
-        <item>x</item>
-        <item>÷</item>
     </string-array>
 
     <string name="hello_world">Hello world!</string>
